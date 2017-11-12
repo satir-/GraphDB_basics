@@ -2,7 +2,11 @@
   "name": "graphdb_basics",
   "version": "1.0.0",
   "description": "Neo4j + Node.js - implementation of basic funcitons to work with GraphDB entities.",
-  "main": "server.js",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/satir-/GraphDB_basics.git"
+  },
+  "main": "neo.js",
   "dependencies": {
     "commander": "^2.11.0",
     "eslint": "^4.9.0",

@@ -1,6 +1,3 @@
-#!/usr/bin/env node
-//You will have to add bin manually, which tells NodeJS what your CLI app is called and what is the entry point to your app.
-
 'use strict';
 
 const neo4j = require('neo4j-driver').v1;

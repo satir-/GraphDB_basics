@@ -20,12 +20,6 @@ const main_command = require('commander');
 // if (main_command.input) console.log('- %s - input', main_command.input);
 // console.log('- %j - required input', main_command.required);
 
-//Usage:
-//neo create - Hello world!
-//neo read [title]
-//neo read -a [title]
-//neo help [command]
-
 //second approach (sub commands)
 main_command
 	.version('0.0.1')
